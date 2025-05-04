@@ -1,11 +1,11 @@
-# 利用Cloudflare R2 + Workers搭建在线网盘
+# 利用Cloudflare R2 + Pages搭建在线网盘
 
 
 [汉化修改自/longern/FlareDrive](https://github.com/longern/FlareDrive)
 
 增加了权限系统，支持多管理员，分别授权目录
 
-cloudflare R2是一个文件储存系统，配合Cloudflare Workers可以实现这样一个网盘系统
+cloudflare R2是一个文件储存系统，配合Cloudflare Pages可以实现这样一个网盘系统
 
 [文件库 (oss.ljxnet.cn)](https://oss.ljxnet.cn/)
 
