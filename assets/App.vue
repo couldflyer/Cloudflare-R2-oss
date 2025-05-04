@@ -149,7 +149,7 @@
       ></div>
       <ul v-if="typeof focusedItem === 'string'" class="contextmenu-list">
         <li>
-          <button @click="copyLink(`/?p=${encodeURIComponent(focusedItem)}`)">
+          <button @click="copyLink(`https://r2.lts.dpdns.org/?p=${encodeURIComponent(focusedItem)}`)">
             <span>复制链接</span>
           </button>
         </li>
@@ -189,7 +189,7 @@
           </button>
         </li>
         <li>
-          <button @click="copyLink(`/raw/${focusedItem.key}`)">
+          <button @click="copyLink(`https://r2.lts.dpdns.org/raw/${focusedItem.key}`)">
             <span>复制链接</span>
           </button>
         </li>
