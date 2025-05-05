@@ -98,7 +98,7 @@
       </li>
       <li v-for="file in filteredFiles" :key="file.key">
         <div
-          @click="preview(`https://r2.lts.dpdns.org/${file.key}`)"
+          @click="preview(`/raw/${file.key}`)"
           @contextmenu.prevent="
             showContextMenu = true;
             focusedItem = file;
@@ -109,7 +109,7 @@
               :content-type="file.httpMetadata.contentType"
               :thumbnail="
                 file.customMetadata.thumbnail
-                  ? `https://r2.lts.dpdns.org/_$flaredrive$/thumbnails/${file.customMetadata.thumbnail}.png`
+                  ? `/raw/_$flaredrive$/thumbnails/${file.customMetadata.thumbnail}.png`
                   : null
               "
             />
